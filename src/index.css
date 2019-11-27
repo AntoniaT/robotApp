@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +7,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  background-image: linear-gradient( 135deg, #0D25B9 10%, #FD6585 100%);
 }
-
-code {
+  code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.heading{
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
+  color: #5EFCE8;
+  text-align: center;
+  margin: 1em;
 }

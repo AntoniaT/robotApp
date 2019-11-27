@@ -1,0 +1,10 @@
+.searchField{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.searchInput{
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+}

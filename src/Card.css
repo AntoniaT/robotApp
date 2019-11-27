@@ -1,0 +1,20 @@
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    padding: 1em;
+    height: auto;
+    background-color: #5EFCE8;
+    margin: 1em;
+}
+.card:hover{
+    transform: scale(1.08);
+}
+.cardText{
+    text-align: center;
+}
